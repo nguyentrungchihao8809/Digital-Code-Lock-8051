@@ -1,9 +1,1 @@
 ﻿# Digital Code Lock 8051
-
-/Digital-Code-Lock-8051
-│
-├── /Circuit            # Chứa file Proteus (.pdsprj), PDF sơ đồ nguyên lý
-├── /Firmware           # Chứa code Keil C (.c, .h) và file nạp (.hex)
-├── /Docs               # Datasheet linh kiện, lưu đồ thuật toán (Flowchart)
-├── /Media              # Hình ảnh mô phỏng, Video demo vận hành
-└── README.md           # "Mặt tiền" của dự án (Cực kỳ quan trọng)

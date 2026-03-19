@@ -6,17 +6,17 @@
 [![Tools: Proteus & KeilC](https://img.shields.io/badge/Tools-Proteus%20%7C%20KeilC-green.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📝 Giới thiệu đề tài
+## Giới thiệu đề tài
 Dự án triển khai hệ thống khóa cửa bảo mật sử dụng vi điều khiển họ **AT89C51**. Hệ thống cho phép người dùng nhập mật mã qua bàn phím ma trận, xác thực và điều khiển chốt cửa (Servo). Điểm nhấn kỹ thuật của dự án là việc quản lý trạng thái bằng **State Machine** và lưu trữ mật mã vĩnh viễn trong **EEPROM**.
 
-## ✨ Tính năng chính
+## Tính năng chính
 - **Xác thực bảo mật:** Nhập mật khẩu qua Keypad 4x4 với chức năng ẩn ký tự.
 - **Lưu trữ phi biến:** Sử dụng EEPROM (24C02) để lưu mật mã, không mất dữ liệu khi mất nguồn.
 - **Cơ chế chống dò mã:** Tự động khóa hệ thống và phát báo động (Buzzer) sau 3 lần nhập sai.
 - **Giao diện trực quan:** Hiển thị hướng dẫn và trạng thái chi tiết trên màn hình LCD 16x2.
 - **Điều khiển chính xác:** Sử dụng xung PWM để điều khiển góc quay của Servo Motor (mô phỏng chốt cửa).
 
-## 🛠 Danh sách linh kiện (Proteus)
+## Danh sách linh kiện (Proteus)
 | Linh kiện | Keyword | Vai trò |
 | :--- | :--- | :--- |
 | MCU | `AT89C51` | Trung tâm điều khiển |
@@ -26,7 +26,7 @@ Dự án triển khai hệ thống khóa cửa bảo mật sử dụng vi điề
 | Actuator | `MOTOR-SERVO` | Cơ cấu chốt cửa vật lý |
 | Alert | `BUZZER` | Phát âm thanh cảnh báo |
 
-## 🏗 Cấu trúc thư mục
+## Cấu trúc thư mục
 ```text
 /
 ├── Circuit/          # Chứa file mô phỏng Proteus (.pdsprj)
